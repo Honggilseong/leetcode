@@ -13,7 +13,6 @@
  */
 var hasPathSum = function(root, targetSum) {
     let answer = false;
-    let sum = 0;
     function helper(root, current) {
         if(!root || answer) return;
         
